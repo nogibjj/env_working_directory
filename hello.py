@@ -1,6 +1,7 @@
-# write a hello function that print "Hello, world!"
+# write a hello function that prints "Hello, world!"
 def hello():
-    print("Hello, World!")
-    
+    print("Hello World!")
+
+
 # invoke hello function
 hello()
