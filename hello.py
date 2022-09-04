@@ -1,4 +1,7 @@
+import random
 # write a hello function that prints "Hello, world!"
+
+
 def hello():
     print("Hello World!")
 
@@ -20,12 +23,8 @@ def log(func):
 
 
 # invoke decorator function using hello function
-@log
-def hello(x):
-    print(f"Hello World! {x}")
-
-
-hello(3)
+hello = log(hello)
+hello()
 
 
 # write a function that yileds a generator that randomly picks between three types of fruit and returns it
